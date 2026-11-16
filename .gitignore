@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+# run logs + state (regenerated at runtime)
+logs/
+*.log
+# key material — NEVER commit
+*-backup.json
+burner-*-backup.json
+.env
+keystore/
+# local IPFS (kubo repo + binary) — never publish
+ipfs-repo/
+kubo/
+# OS
+.DS_Store
